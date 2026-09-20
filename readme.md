@@ -5,7 +5,7 @@
 ![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-Least_Privilege-red?style=for-the-badge)
 
-> **Elevator Pitch:** A high-security, low-latency static website hosting architecture. The origin storage (**Amazon S3**) remains completely isolated from the public network (`Block ALL Public Access`), routing incoming read traffic exclusively through **Amazon CloudFront** via dynamic authentication with **Origin Access Control (OAC)**.
+>  A high-security, low-latency static website hosting architecture. The origin storage (**Amazon S3**) remains completely isolated from the public network (`Block ALL Public Access`), routing incoming read traffic exclusively through **Amazon CloudFront** via dynamic authentication with **Origin Access Control (OAC)**.
 
 ---
 
