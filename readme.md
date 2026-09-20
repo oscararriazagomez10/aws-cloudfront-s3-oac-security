@@ -40,7 +40,7 @@ Attemting to fetch the object directly using the S3 Object UTL returns an **HTTP
 
 ![S3 Access Denied Proof](docs/s3-access-denied.png)
 
-### 2. Authenticated Edge Delivery (Cloudfront)
+### 2. Authenticated Edge Delivery (CloudFront)
 
 Accessing the application via the Cloudfront CDN domain successfully authenticates via OAC, serving the html content globally with minimal latency.
 
