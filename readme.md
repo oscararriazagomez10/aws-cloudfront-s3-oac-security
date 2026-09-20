@@ -20,7 +20,7 @@ In corporate production environments, publicly exposed Amazon S3 buckets represe
 
 ## 🏗️ Architecture Diagram
 
-![AWS Architecture Diagram](docs/architecture-diagram.png)
+![AWS Architecture Diagram](docs//architecture-diagram.png)
 
 ---
 
