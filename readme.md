@@ -38,7 +38,7 @@ In corporate production environments, publicly exposed Amazon S3 buckets represe
 
 Attemting to fetch the object directly using the S3 Object UTL returns an **HTTP 403 AccessDenied** error, confirming that origin perimeter security is active and fuctional.
 
-! [S3 Access Denied Proof](docs/s3-access-denied.png)
+![S3 Access Denied Proof](docs/s3-access-denied.png)
 
 ### 2. Authenticated Edge Delivery (Cloudfront)
 
