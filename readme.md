@@ -51,7 +51,7 @@ Accessing the application via the Cloudfront CDN domain successfully authenticat
 * **Default Root Object Configuration** Explicitly set `index.html` as the *Default Root Object* in Cloudfront distribution settings. Without this parameter, root domain request (`/`) result in a `403 forbidden` error because Cloudfront cannot resolve the default entry file.
 * **S3 Policy Synchronization:** Validated the `AWS:SourceArn` condition within the JSON permissions document to ensure the AWS Account ID and Distribution ID matched the deployed infrastructure exactly.
 
---
+---
 
  ## 🧹 Cost Optimization & Environment Cleanup
 Adhering to cloud engineering best practices and environment hygiene, all provisioned resources (CDN distributions and test S3 buckets) were deprovisioned after completing security testing, maintaining a **$0.00** total account footprint.
